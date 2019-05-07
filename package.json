@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "server": "webpack-dev-server --colors --progress"
+    "server": "webpack-dev-server --colors --progress",
+    "release": "webpack --colors --progress --mode=production"
   },
   "dependencies": {
     "react": "^16.8.6",
