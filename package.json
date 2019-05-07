@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "server": "webpack-dev-server --colors --progress",
-    "release": "webpack --colors --progress --mode=production"
+    "release": "rm -rf dist && webpack --colors --progress --mode=production"
   },
   "dependencies": {
     "react": "^16.8.6",
