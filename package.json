@@ -7,9 +7,12 @@
     "release": "rm -rf dist && webpack --colors --progress --mode=production"
   },
   "dependencies": {
+    "js-cookie": "^2.2.0",
+    "ramda": "^0.26.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-subx": "^0.4.9",
+    "ringcentral": "^3.2.1",
     "subx": "^0.7.3"
   },
   "devDependencies": {
